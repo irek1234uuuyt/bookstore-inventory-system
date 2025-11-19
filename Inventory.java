@@ -111,30 +111,30 @@ public class Inventory {
 
                 switch (choice) {
                     case 1: inventory.addBook(sc);
-                    break;
+                        break;
                     
                     case 2: inventory.displayAllBooks();
-                    break;
+                        break;
                     
                     case 3: inventory.sortBooksByTitle();
-                    break;
+                        break;
                     
                     case 4: inventory.searchBookByTitle(sc);
-                    break;
+                        break;
                     
                     case 5: inventory.addOrderToQueue(sc);
-                    break;
+                        break;
                     
                     case 6: inventory.processNextOrder();
-                    break;
+                        break;
                     
                     case 7:
                         System.out.print("Thank you for using the Bookstore Inventory Management System!\n");
-                    break;
+                        break;
                     
                     default: 
                         System.out.print("Invalid choice. Please try again.\n\n");
-                    break;
+                        break;
                 }
             } catch (NumberFormatException e) {
                 System.out.print("Invalid input. Please enter a number from 1 to 7.\n\n");
