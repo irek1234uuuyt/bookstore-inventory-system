@@ -1,0 +1,65 @@
+# Bookstore Inventory Management System - DSA Final Project
+
+## Author: Fred Erick B. Casalla
+
+This project is a simple, console-based Bookstore Inventory Management System created for the Data Structures and Algorithms lab. It is written in Java and demonstrates the practical application of fundamental data structures and algorithms, including LinkedLists, Queues, Sorting, and Searching.
+
+## Features
+
+* **Add New Books**: Users can add new books to the inventory by providing a title, author, ISBN, and price.
+* **Dynamic Inventory Storage**: Utilizes a `LinkedList` to dynamically store and manage the collection of books.
+* **Display All Books**: Shows a complete list of all books currently in the inventory.
+* **Sort Inventory**: Implements a **Bubble Sort algorithm** to organize the books alphabetically by title.
+* **Search for Books**: Uses a **Linear Search algorithm** to find a specific book by its title.
+* **Order Processing**: Implements a **`Queue`** to manage customer book orders in a first-in, first-out (FIFO) manner. Orders are automatically processed immediately after being added.
+* **Interactive Menu**: A user-friendly, menu-driven interface for easy navigation and operation.
+
+## How to Run the Project
+
+1. **Prerequisites**:
+    * Java Development Kit (JDK) 8 or higher must be installed.
+
+2. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/irek1234uuuyt/bookstore-inventory-system.git
+    ```
+
+3. **Navigate to the Directory**:
+    ```bash
+    cd bookstore-inventory-system
+    ```
+
+4. **Compile the Java Files**:
+    ```bash
+    javac *.java
+    ```
+
+5. **Run the Application**:
+    ```bash
+    java Inventory
+    ```
+
+## Sample Output Screenshots
+
+### 1. Main Menu
+![Main Menu](screenshots/main_menu.png)
+
+### 2. Adding New Books
+![Adding Books](screenshots/adding_books.png)
+
+### 3. Displaying All Books (Unsorted)
+![Display Unsorted](screenshots/display_unsorted.png)
+
+### 4. Sorting and Displaying Books
+![Sorting and Displaying](screenshots/sorting_and_displaying.png)
+
+### 5. Searching for a Book
+![Search Found](screenshots/search_found.png)
+
+### 6. Managing Customer Orders
+![Queue Operations](screenshots/queue_operations.png)
+
+*(Note: Make sure your screenshots are saved in the `screenshots` folder with the correct names. Replace placeholder screenshots with your actual images.)*
+
+## Folder Structure
+
