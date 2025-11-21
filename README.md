@@ -58,8 +58,3 @@ This project is a simple, console-based Bookstore Inventory Management System cr
 
 ### 6. Managing Customer Orders
 ![Queue Operations](screenshots/queue_operations.png)
-
-*(Note: Make sure your screenshots are saved in the `screenshots` folder with the correct names. Replace placeholder screenshots with your actual images.)*
-
-## Folder Structure
-
